@@ -24,6 +24,6 @@ for i in range(0, len(s)):
         if s[j] == str1:
             c += 1
         else:
-            temp += str(s[j] + str(c)
+            temp += str(s[j] + str(c))
             # c = 1
             # print(str1)
