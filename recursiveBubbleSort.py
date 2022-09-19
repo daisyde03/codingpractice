@@ -8,7 +8,7 @@ def recBubbleSort(l):
             l[j + 1] = temp
             i += 1
     if i == 0:
-        return
+        return l
     else:
         recBubbleSort(l)
 
